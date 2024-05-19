@@ -62,7 +62,7 @@ const mainTitle = "品味分析";
         </div>
       </div>
     </div>
-    <div class="flex flex-col px-10 text-2xl">
+    <div class="flex flex-col px-10 text-2xl ps-10 md:px-32 lg:px-56">
       <UCard>
         <template #header>
           <div>

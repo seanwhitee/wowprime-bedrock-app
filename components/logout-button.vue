@@ -12,7 +12,8 @@ const customLogout = () => {
   <button class="flex items-center fixed right-2 top-2.5">
     <button
       @click="customLogout"
-      class="rounded-md bg-zinc-800 hover:bg-zinc-800/90 flex items-center justify-center text-white py-2 px-4 cursor-pointer"
+      class="rounded-md bg-zinc-800 hover:bg-zinc-800/90 flex items-center justify-center text-white
+      py-2 px-4 cursor-pointer opacity-80"
     >
       登出
     </button>
