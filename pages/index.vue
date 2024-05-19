@@ -9,7 +9,7 @@ if (authStore.instaUsername) {
 </script>
 <template>
   <GradientFog />
-  <navbar />
+  <Navbar />
   <EntryButton />
   <div class="flex items-center justify-center px-10 pt-80">
     <div class=" text-6xl md:text-8xl lg:text-8xl flex flex-col w-4/5 mx-auto justify-start inter-font font-light">
