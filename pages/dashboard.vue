@@ -91,7 +91,7 @@ const mainTitle = "品味分析";
       <UCarousel v-slot="{ item }" :items="items">
         <div class="w-[70vw] h-[300px] object-cover">
           <img :src="`https://wangpin-web-bucket.s3.us-west-2.amazonaws.com/logo/${item}.png`" class="absolute p-1 w-16 h-16 aspect-squares">
-          <img :src="`https://wangpin-web-bucket.s3.us-west-2.amazonaws.com/${item}.jpg`" draggable="false" />
+          <img :src="`https://wangpin-web-bucket.s3.us-west-2.amazonaws.com/${item}.jpg`" draggable="false" class="w-full" />
         </div> 
       </UCarousel>
     </div>
