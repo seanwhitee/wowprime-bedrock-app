@@ -19,7 +19,7 @@ async function onSubmit() {
   try {
     dashboardStore.isLoading = true;
     const res = await $fetch(
-      `https://pnwpmlbyeowa4xjnu3g7ra5ndu0vvtil.lambda-url.us-west-2.on.aws?username=${state.username}`,
+      `/api?username=${state.username}`,
       {
         method: "GET",
       }

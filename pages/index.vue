@@ -27,7 +27,7 @@ if (authStore.instaUsername) {
       class="rounded-lg hidden md:flex lg:flex items-center justify-center md:w-8/12 lg:w-8/12 p-1
       bg-zinc-900 skew-y-6 shadow-2xl"
     >
-      <NuxtImg src="feature-screenshot.png" alt="feature-screenshot" class="rounded-lg" />
+      <img src="../assets/images/feature-screenshot.png" alt="feature-screenshot" class="rounded-lg">
     </div>
   </div>
 </template>
