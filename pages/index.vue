@@ -12,7 +12,7 @@ if (authStore.instaUsername) {
   <Navbar />
   <EntryButton />
   <div class="flex items-center justify-center px-10 pt-80">
-    <div class=" text-6xl md:text-8xl lg:text-8xl flex flex-col w-4/5 mx-auto justify-start inter-font font-light">
+    <div class=" text-6xl md:text-8xl lg:text-8xl flex flex-col w-4/5 mx-auto justify-start inter-font font-semibold">
       
       <p class="text-white mb-4">
         <span class="text-red-500">王</span>
