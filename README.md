@@ -2,6 +2,10 @@
 
 An application that helps users recommend `Wowprime` restaurants based on their Instagram profile data.
 
+## Video Demo
+
+[YouTube](https://youtu.be/-5nBlCUlYy8)
+
 ## Setup
 
 ### Make sure to install the dependencies
